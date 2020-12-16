@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LabLoginPage">
-        <activity android:name=".RelativeLayoutPractise"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Lab03ShowData">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Lab02_IncreaseCounter">
+
+        </activity>
+        <activity android:name=".RelativeLayoutPractise" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
